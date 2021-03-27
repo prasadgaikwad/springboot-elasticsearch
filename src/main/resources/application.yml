@@ -1,0 +1,11 @@
+# weather api configuration
+source:
+  weather_api: "https://www.metaweather.com/api/location/"
+
+# elasticsearch configuration
+destination:
+  elasticsearch:
+    hostname: localhost
+    port: 9200
+    username:
+    password:
